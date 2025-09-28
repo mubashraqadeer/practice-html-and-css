@@ -1,0 +1,67 @@
+.main-div
+{
+    display: flex;
+    gap:10px;
+    align-items: center;   
+    justify-content: center; 
+    height: 80vh; 
+}
+.d1
+{
+    border: 3px solid rgb(32, 74, 151);
+    border-radius: 5px;
+    background-color: lightblue;    
+    text-align: left;
+}
+@media screen and (min-width: 320px) and (max-width: 480px) 
+{
+.main-div
+{
+    flex-direction: column;
+    gap:20px;
+   
+}
+.d1
+{
+    font-size: 15px;
+     background-color: rgb(216, 114, 201);  
+}
+}
+@media screen and (min-width: 481px) and (max-width: 768px) 
+{
+.main-div
+{
+    flex-direction: column;
+    gap:25px;
+   
+}
+.d1
+{
+    font-size: 20px;
+     background-color: rgb(82, 175, 129);  
+}
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) 
+{ 
+.main-div {
+        flex-direction: row;   
+        gap: 10px;                   
+    }
+
+    .d1 {
+        background-color: rgb(180, 187, 42);   
+        
+    }
+}
+@media screen and (min-width: 1025px) and (max-width: 1200px)
+{
+.main-div
+{
+    flex-direction: row;
+    gap:20px; 
+}
+.d1{
+    background-color: rgb(190, 115, 62);
+}
+}
+

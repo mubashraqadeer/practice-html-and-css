@@ -1,0 +1,14 @@
+/* .carousel-item
+{
+  height: 32rem;
+  background-color: #777;
+  background-position: center;
+  background-size: cover;
+} */
+
+.col:hover {
+  
+  transition: background-color 1s ease-out, transform 1s ease-out;
+  transform: scale(1.02);
+ 
+}

@@ -1,102 +1,104 @@
-.navbar
-{
+.navbar {
     background-color: white;
-    position: sticky;
+   
 }
+
 .hero {
-  background: url("wall.png") no-repeat center  center/cover;
-  height: 85vh;
+    background: url("wall.png") no-repeat center center/cover;
+    height: 85vh;
 }
-.wedding-card
-{
+
+.wedding-card {
     /* background-color: rgba(244, 250, 244, 0.837); */
     background-image: url("background.png");
     position: relative;
 }
+/* ::after ek pseudo-element hai jo kisi element ke andar extra virtual element banata hai, bina HTML me extra <div> likhe. */
 .wedding-card::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background:rgba(255,255,255,0.6);/* white overlay */
+    content: "";   /* after aur before tabhi visible hote hain jab content property define hoti hai.
+    Yahan empty string ("") use kiya gaya hai kyunki hume sirf ek shape/layer chahiye, koi actual text nahi. */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.6);
+    /* white overlay */
 }
 
-.main
-{
-/*     
+.main {
+    /*     
     display: flex;
     justify-content: space-evenly;  */
-     font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display', serif;
+    color: #3B5E4F;
+    position: relative;
+    z-index: 1;  /* Ye property decide karti hai ke kon c cheez upar hogi aur kon c neeche. */ 
+
+}
+
+.main img {
+    width: 136px;
+    height: 159;
+}
+
+.main1 {
+    font-family: 'Great Vibes', 'Alex Brush', 'Parisienne', cursive;
     color: #3B5E4F;
     position: relative;
     z-index: 1;
+}
 
-}  
-.main img{
-width: 136px;
-height: 159;
-}
-.main1
-{
-    font-family: 'Great Vibes', 'Alex Brush', 'Parisienne', cursive; 
+.main11 {
+    font-family: 'Playfair Display', serif;
     color: #3B5E4F;
-     position: relative;
+    position: relative;
     z-index: 1;
 }
-.main11
-{
-   font-family: 'Playfair Display', serif;
+
+.main111 {
+
     color: #3B5E4F;
-     position: relative;
+    position: relative;
     z-index: 1;
 }
-.main111
-{
-   
-    color: #3B5E4F;
-     position: relative;
-    z-index: 1;
-}
-.btn 
-{
+
+.btn {
     border-radius: 50px;
     border: 1px solid black;
     height: 40px;
     color: #3B5E4F;
     position: relative;
 }
-.main2
-{
-    font-family: 'Playfair Display', serif;
-     color: #3B5E4F;
-      z-index: 1;
-      position: relative;
-}
-.main3
-{
+
+.main2 {
     font-family: 'Playfair Display', serif;
     color: #3B5E4F;
-      z-index: 1;
-      position: relative;
-}
-.foot
-{
-   
-    background-image: url("footer.jpg");
-     border: 1px solid rgb(122, 106, 106);
-    height: 32vh;
-     color: #3B5E4F;
+    z-index: 1;
+    position: relative;
 }
 
-.foot1
-{
-    width: 45%;
-    
+.main3 {
+    font-family: 'Playfair Display', serif;
+    color: #3B5E4F;
+    z-index: 1;
+    position: relative;
 }
-.foot2
-{
+
+.foot {
+
+    background-image: url("footer.jpg");
+    border: 1px solid rgb(122, 106, 106);
+    height: 32vh;
+    color: #3B5E4F;
+}
+
+.foot1 {
+    width: 45%;
+
+}
+
+.foot2 {
     border-radius: 25px;
     border: 1px solid rgb(122, 106, 106);
 }

@@ -13,12 +13,12 @@
 
 }
 .perfume-img {
-    width: 220px;       
-    height: 200px;
-    object-fit: cover;   /* image ko crop nahi hone deta */
-    border-radius: 50%; 
-    
-  }
+  width: 180px;      
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
 @media (max-width: 576px)
 {
     .perfume-img {
@@ -27,11 +27,10 @@
     }
 
   }
-
-@media (max-width: 768px) 
-{
-    .perfume-img {
-      width: 120px;     
-      height: 120px;
-    }
+@media (min-width: 577px) and (max-width: 991px) {
+  .perfume-img {
+    width: 130px;
+    height: 130px;
   }
+}
+

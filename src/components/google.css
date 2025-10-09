@@ -1,0 +1,43 @@
+.nav-link
+{
+    color: black;
+    cursor: pointer;
+}
+.nav-link:hover
+{
+    text-decoration: underline;
+    color: black;
+}
+#icon-size {
+    font-size: 1.2rem; 
+    cursor: pointer;
+    border-radius: 50%;
+    transition: background-color 0.2s ease;
+    
+}
+#icon-size1 {
+    font-size: 1.4rem; 
+    cursor: pointer;
+    border-radius: 50%;
+    transition: background-color 0.2s ease;
+
+}
+#icon-size:hover
+{
+   background-color: #f1f3f4; 
+  
+}
+#icon-size1:hover
+{
+   background-color: #f1f3f4; 
+  
+}
+#hero
+{
+    margin-top: 80px;
+}
+.form-control:focus {
+    outline: none;
+    box-shadow: none;
+    border: none;
+}

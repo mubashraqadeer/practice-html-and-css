@@ -9,7 +9,8 @@
     color: black;
 }
 #icon-size {
-    font-size: 1.2rem; 
+    font-size: 1.2rem;  
+    
     cursor: pointer;
     border-radius: 50%;
     transition: background-color 0.2s ease;
